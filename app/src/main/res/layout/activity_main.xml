@@ -25,6 +25,7 @@
             android:layout_width="200sp"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
+            android:onClick="changeToLogIn"
             android:text="Log In" />
 
         <Space
