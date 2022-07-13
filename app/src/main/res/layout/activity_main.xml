@@ -18,7 +18,7 @@
 
         <Space
             android:layout_width="match_parent"
-            android:layout_height="60sp" />
+            android:layout_height="45sp" />
 
         <Button
             android:id="@+id/button"
@@ -29,23 +29,25 @@
 
         <Space
             android:layout_width="match_parent"
-            android:layout_height="60sp" />
+            android:layout_height="45sp" />
 
         <Button
             android:id="@+id/button2"
             android:layout_width="200sp"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
+            android:onClick="changeToSignUp"
             android:text="Sign Up" />
 
         <Space
             android:layout_width="match_parent"
-            android:layout_height="100sp" />
+            android:layout_height="60sp" />
 
         <Button
             android:id="@+id/button3"
-            android:layout_width="match_parent"
-            android:layout_height="200sp"
+            android:layout_width="300sp"
+            android:layout_height="100sp"
+            android:layout_gravity="center"
             android:text="My Profile" />
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
