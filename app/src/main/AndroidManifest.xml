@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Financic">
         <activity
+            android:name=".ResetPassword"
+            android:exported="false" />
+        <activity
             android:name=".login"
             android:exported="false" />
         <activity
