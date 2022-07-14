@@ -29,7 +29,7 @@
             android:textSize="24sp" />
 
         <EditText
-            android:id="@+id/editTextTextEmailAddress"
+            android:id="@+id/et1sigup"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ems="10"
@@ -48,7 +48,7 @@
             android:textSize="24sp" />
 
         <EditText
-            android:id="@+id/editTextTextPassword"
+            android:id="@+id/et2sigup"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ems="10"
@@ -59,7 +59,7 @@
             android:layout_height="34dp" />
 
         <EditText
-            android:id="@+id/editTextTextPassword2"
+            android:id="@+id/et3sigup"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ems="10"
@@ -74,6 +74,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
+            android:onClick="registerUser"
             android:text="Register" />
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
