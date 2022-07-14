@@ -47,7 +47,7 @@ public class login extends AppCompatActivity {
                             FirebaseUser user = mAuth.getCurrentUser();
                             //updateUI(user); futura implementacion
                             Toast.makeText(getApplicationContext(), "Autentificacion correcta.", Toast.LENGTH_SHORT).show();
-                            Intent i = new Intent(getApplicationContext(),myprofile.class);
+                            Intent i = new Intent(getApplicationContext(),MyProfile.class);
                             startActivity(i);
                         } else {
                             Toast.makeText(getApplicationContext(), "Fallo al intentar iniciar sesión.", Toast.LENGTH_SHORT).show();
