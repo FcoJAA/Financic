@@ -4,6 +4,90 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/wallpaperfinancicopa"
     tools:context=".MyProfile">
 
+    <ScrollView
+        android:layout_width="329dp"
+        android:layout_height="471dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.657">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/button7"
+                android:layout_width="match_parent"
+                android:layout_height="100sp"
+                android:backgroundTint="#BAFFFFFF"
+                android:text="Añadir Ingreso"
+                android:textColor="#810060" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="20sp" />
+
+            <Button
+                android:id="@+id/button8"
+                android:layout_width="match_parent"
+                android:layout_height="100sp"
+                android:backgroundTint="#BAFFFFFF"
+                android:text="Añadir Gasto"
+                android:textColor="#810060" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="20sp" />
+
+            <Button
+                android:id="@+id/button9"
+                android:layout_width="match_parent"
+                android:layout_height="100sp"
+                android:backgroundTint="#BAFFFFFF"
+                android:text="Balance semanal"
+                android:textColor="#810060" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="20sp" />
+
+            <Button
+                android:id="@+id/button10"
+                android:layout_width="match_parent"
+                android:layout_height="100sp"
+                android:backgroundTint="#BAFFFFFF"
+                android:text="Balance Mensual"
+                android:textColor="#810060" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="20sp" />
+
+            <Button
+                android:id="@+id/button11"
+                android:layout_width="match_parent"
+                android:layout_height="100sp"
+                android:backgroundTint="#BAFFFFFF"
+                android:text="Balance anual"
+                android:textColor="#810060" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="20sp" />
+
+            <Button
+                android:id="@+id/button12"
+                android:layout_width="match_parent"
+                android:layout_height="100sp"
+                android:backgroundTint="#BAFFFFFF"
+                android:text="Crear PDF personalizado"
+                android:textColor="#810060" />
+        </LinearLayout>
+    </ScrollView>
 </androidx.constraintlayout.widget.ConstraintLayout>
